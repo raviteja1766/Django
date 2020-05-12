@@ -1,0 +1,39 @@
+Tests ran at 14 Mar 02 32 PM
+
+35 tests passed out of 35 tests.
+
+tests.py::TestClass::test_movie_model: passed
+tests.py::TestClass::test_actor_model: passed
+tests.py::TestClass::test_director_model: passed
+tests.py::TestClass::test_cast_model: passed
+tests.py::TestClass::test_rating_model: passed
+tests.py::TestClass::test_populate_database_with_five_movies_and_actors_creation: passed
+tests.py::TestClass::test_one_movie_with_only_one_actor_creation: passed
+tests.py::TestClass::test_populate_database_for_three_movies_with_same_director_and_four_actors: passed
+tests.py::TestClass::test_populate_database_when_one_actor_acted_in_three_movies: passed
+tests.py::TestClass::test_populate_database_when_actor_acted_in_multiple_roles_in_movies: passed
+tests.py::TestClass::test_get_distinct_movies_count_when_given_actor_acted_in_three_movies: passed
+tests.py::TestClass::test_get_distinct_movies_count_multiple_actors_acted_in_multiple_movies: passed
+tests.py::TestClass::test_get_distinct_movies_count_multiple_roles_in_same_movie: passed
+tests.py::TestClass::test_get_distinct_movies_count_given_actor_has_no_movies: passed
+tests.py::TestClass::test_get_movies_directed_with_multiple_movies_by_single_director: passed
+tests.py::TestClass::test_get_movies_directed_with_single_movie_by_single_director: passed
+tests.py::TestClass::test_get_movies_directed_with_multiple_movies_by_multiple_directors: passed
+tests.py::TestClass::test_get_movies_directed_with_no_movies_directed_by_director: passed
+tests.py::TestClass::test_get_average_rating_of_movie_two_movies_with_different_ratings: passed
+tests.py::TestClass::test_get_average_rating_of_movie_with_all_five_ratings_only: passed
+tests.py::TestClass::test_get_average_rating_of_movie_with_no_ratings_obj: passed
+tests.py::TestClass::test_get_average_rating_of_movie_with_no_ratings: passed
+tests.py::TestClass::test_delete_rating_of_movie: passed
+tests.py::TestClass::test_delete_movie_rating_when_one_movie_is_in_db: passed
+tests.py::TestClass::test_delete_rating_of_movie_two_movies_in_db: passed
+tests.py::TestClass::test_get_all_actors_acted_in_given_movies: passed
+tests.py::TestClass::test_get_all_actors_acted_in_given_movies_one_actor_acted_in_all: passed
+tests.py::TestClass::test_update_director_for_given_movie: passed
+tests.py::TestClass::test_get_distinct_movies_acted_by_actor_whose_name_contains_john_when_john_acted_in_movies_in_one_role: passed
+tests.py::TestClass::test_get_distinct_movies_with_actor_name_containing_john_when_john_acted_in_three_roles_in_few_movies_one_role_in_few_movies: passed
+tests.py::TestClass::test_get_distinct_movies_acted_by_actor_whose_name_contains_john_when_john_has_no_movies: passed
+tests.py::TestClass::test_get_distinct_movies_acted_by_actor_whose_name_contains_john_when_there_is_no_actor_john: passed
+tests.py::TestClass::test_remove_all_actors_from_given_movie: passed
+tests.py::TestClass::test_get_all_rating_objects_for_given_movies_when_there_are_ratings_for_all_movies: passed
+tests.py::TestClass::test_get_all_rating_objects_for_given_movies_when_there_is_no_rating_for_movie: passed

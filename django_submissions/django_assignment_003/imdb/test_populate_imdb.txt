@@ -1,0 +1,178 @@
+actors_list = [
+        {
+            "actor_id": "actor_1",
+            "name": "jason smith"
+        },
+        {
+            "actor_id": "actor_2",
+            "name": "baba fakruddhin"
+        },
+        {
+            "actor_id": "actor_3",
+            "name": "mahesh babu"
+        },
+        {
+            "actor_id": "actor_4",
+            "name": "naveen kumar"
+        },
+        {
+            "actor_id": "actor_5",
+            "name": "rav iteja"
+        }
+]
+movies_list =  [
+        {
+            "movie_id": "movie_1",
+            "name": "Movie 1",
+            "actors": [
+                {
+                    "actor_id": "actor_2",
+                    "role": "hero",
+                    "is_debut_movie": False
+                },
+                {
+                    "actor_id": "actor_3",
+                    "role": "villan",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_4",
+                    "role": "comedian",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_5",
+                    "role": "side character",
+                    "is_debut_movie": True
+                }
+            ],
+            "box_office_collection_in_crores": "12.3",
+            "release_date": "2006-5-3",
+            "director_name": "Director 1"
+        },
+        {
+            "movie_id": "movie_2",
+            "name": "Movie 2",
+            "actors": [
+                {
+                    "actor_id": "actor_1",
+                    "role": "hero",
+                    "is_debut_movie": False
+                },
+                {
+                    "actor_id": "actor_3",
+                    "role": "villan",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_4",
+                    "role": "comedian",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_5",
+                    "role": "side character",
+                    "is_debut_movie": True
+                }
+            ],
+            "box_office_collection_in_crores": "15.3",
+            "release_date": "2000-5-3",
+            "director_name": "Director 1"
+        },
+        {
+            "movie_id": "movie_3",
+            "name": "Movie 3",
+            "actors": [
+                {
+                    "actor_id": "actor_2",
+                    "role": "hero",
+                    "is_debut_movie": False
+                },
+                {
+                    "actor_id": "actor_1",
+                    "role": "villan",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_4",
+                    "role": "comedian",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_5",
+                    "role": "side character",
+                    "is_debut_movie": True
+                }
+            ],
+            "box_office_collection_in_crores": "16.3",
+            "release_date": "2010-5-3",
+            "director_name": "Director 2"
+        },
+        {
+            "movie_id": "movie_4",
+            "name": "Movie 4",
+            "actors": [
+                {
+                    "actor_id": "actor_2",
+                    "role": "hero",
+                    "is_debut_movie": False
+                },
+                {
+                    "actor_id": "actor_3",
+                    "role": "villan",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_1",
+                    "role": "comedian",
+                    "is_debut_movie": True
+                },
+                {
+                    "actor_id": "actor_5",
+                    "role": "side character",
+                    "is_debut_movie": True
+                }
+            ],
+            "box_office_collection_in_crores": "17.3",
+            "release_date": "2008-5-3",
+            "director_name": "Director 2"
+        }
+    ]
+directors_list = [
+        "Director 1","Director 2"
+    ]
+movie_rating_list = [
+        {
+            "movie_id": "movie_1",
+            "rating_one_count": 4,
+            "rating_two_count": 4,
+            "rating_three_count": 4,
+            "rating_four_count": 4,
+            "rating_five_count": 4
+        },
+        {
+            "movie_id": "movie_2",
+            "rating_one_count": 6,
+            "rating_two_count": 3,
+            "rating_three_count": 7,
+            "rating_four_count": 8,
+            "rating_five_count": 5
+        },
+        {
+            "movie_id": "movie_3",
+            "rating_one_count": 4,
+            "rating_two_count": 3,
+            "rating_three_count": 9,
+            "rating_four_count": 8,
+            "rating_five_count": 3
+        },
+        {
+            "movie_id": "movie_4",
+            "rating_one_count": 2,
+            "rating_two_count": 7,
+            "rating_three_count": 4,
+            "rating_four_count": 9,
+            "rating_five_count": 5
+        }
+        
+    ]

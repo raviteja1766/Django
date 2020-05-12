@@ -1,0 +1,66 @@
+Tests ran at 11 Apr 11 32 PM
+
+58 tests passed out of 58 tests.
+
+tests.py::test_create_group_with_invalid_user_id_raise_exception: passed
+tests.py::test_create_group_with_invalid_group_name_raise_exception: passed
+tests.py::test_create_group_with_invalid_member_ids_raise_exception: passed
+tests.py::test_create_group_with_valid_details_return_group_id: passed
+tests.py::test_create_group_with_duplicate_member_ids: passed
+tests.py::test_create_group_with_user_id_in_members: passed
+tests.py::test_create_two_groups_with_same_details: passed
+tests.py::test_add_member_to_group_with_invalid_user_id_raise_exception: passed
+tests.py::test_add_member_to_group_with_invalid_member_id_raise_exception: passed
+tests.py::test_add_member_to_group_with_invalid_group_id_raise_exception: passed
+tests.py::test_add_member_to_group_with_invalid_group_user_raise_exception: passed
+tests.py::test_add_member_to_group_with_invalid_group_admin_raise_exception: passed
+tests.py::test_add_member_to_group_with_valid_details_and_add_member_to_group: passed
+tests.py::test_add_member_to_group_with_member_already_in_group: passed
+tests.py::test_remove_member_from_group_with_invalid_user_id_raise_exception: passed
+tests.py::test_remove_member_from_group_with_invalid_member_id_raise_exception: passed
+tests.py::test_remove_member_from_group_with_invalid_group_id_raise_exception: passed
+tests.py::test_remove_member_from_group_with_invalid_group_user_raise_exception: passed
+tests.py::test_remove_member_from_group_with_invalid_group_admin_raise_exception: passed
+tests.py::test_remove_member_from_group_with_invalid_group_member_raise_exception: passed
+tests.py::test_remove_member_from_group_with_valid_details_and_remove_member_from_group: passed
+tests.py::test_make_member_as_admin_with_invalid_user_id_raise_exception: passed
+tests.py::test_make_member_as_admin_with_invalid_member_id_raise_exception: passed
+tests.py::test_make_member_as_admin_with_invalid_group_id_raise_exception: passed
+tests.py::test_make_member_as_admin_with_user_not_in_group_raise_exception: passed
+tests.py::test_make_member_as_admin_with_non_admin_user_raise_exception: passed
+tests.py::test_make_member_as_admin_with_member_not_in_group_raise_exception: passed
+tests.py::test_make_member_as_admin_with_valid_details_and_make_member_as_admin: passed
+tests.py::test_create_post_in_group_with_invalid_user_id_raise_exception: passed
+tests.py::test_create_post_in_group_with_invalid_post_content_raise_exception: passed
+tests.py::test_create_post_with_invalid_group_id_raise_exception: passed
+tests.py::test_create_post_with_user_not_in_group_raise_exception: passed
+tests.py::test_create_post_with_valid_details_and_group_id_return_post_id: passed
+tests.py::test_create_post_with_valid_details_without_group_id_return_post_id: passed
+tests.py::test_get_group_feed_with_invalid_user_id_raise_exception: passed
+tests.py::test_get_group_feed_with_invalid_group_id_raise_exception: passed
+tests.py::test_get_group_feed_when_user_not_in_group_raise_exception: passed
+tests.py::test_get_group_feed_with_invalid_offset_value_raise_exception[-1]: passed
+tests.py::test_get_group_feed_with_invalid_limit_value_raise_exception[0]: passed
+tests.py::test_get_group_feed_with_invalid_limit_value_raise_exception[-1]: passed
+tests.py::test_get_group_feed_with_valid_details_and_limit_is_two_return_list_of_posts: passed
+tests.py::test_get_group_feed_with_valid_details_check_pagination[1-2-expected_result0]: passed
+tests.py::test_get_group_feed_with_valid_details_check_pagination[1-4-expected_result1]: passed
+tests.py::test_get_group_feed_with_valid_details_check_pagination[0-10-expected_result2]: passed
+tests.py::test_get_user_posts_with_invalid_user_id_raise_exception: passed
+tests.py::test_get_user_posts_with_valid_details_return_user_posts_with_group_details: passed
+tests.py::test_get_user_posts_with_valid_details_and_no_group_details_return_user_posts: passed
+tests.py::test_get_silent_group_members: passed
+tests.py::test_get_posts_with_more_comments_than_reactions_with_zero_reactions: passed
+tests.py::test_get_posts_with_more_comments_than_reactions: passed
+tests.py::test_get_posts_with_more_comments_than_post_with_comments_replies_and_reactions_for_each_post: passed
+tests.py::test_group_model: passed
+tests.py::test_group_user_model: passed
+tests.py::test_user_model: passed
+tests.py::test_post_model: passed
+tests.py::test_comment_model: passed
+tests.py::test_comment_model_to_support_reply: passed
+tests.py::test_reaction_model: passed
+
+
+Errors: 0 errors
+

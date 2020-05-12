@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form"
+              action="/questions/create/" method="post">{% csrf_token %}
+            <span class="contact100-form-title">
+					Create Question
+				</span>
+
+            <div class="wrap-input100 validate-input"
+                 data-validate="Please enter question text">
+                <input class="input100" type="text" name="question"
+                       placeholder="Question Text">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input"
+                 data-validate="Please enter answer">
+                <textarea class="input100" name="answer"
+                          placeholder="Answer"></textarea>
+                <span class="focus-input100"></span>
+            </div>
+
+
+            <div class="container-contact100-form-btn-extra-options">
+					<input type="submit" class="contact100-form-btn"
+						   value="save">
+				</div>
+        </form>
+    </div>
+</div>
+<div id="dropDownSelect1"></div>
+
+{% endblock %}

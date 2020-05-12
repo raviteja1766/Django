@@ -1,0 +1,32 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<div class="container-contact100">
+	<div class="wrap-contact100">
+		<form class="contact100-form validate-form" action="/questions/{{ question.id }}/update/" method="post">
+			{% csrf_token %}
+			<span class="contact100-form-title">
+					Question
+				</span>
+
+			<div class="wrap-input100 validate-input" data-validate="Please enter question text">
+				<textarea class="input100" name="question" placeholder="Answer">{{ question.text }}</textarea>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100 validate-input" data-validate="Please enter answer">
+				<textarea class="input100" name="answer" placeholder="Answer">{{ question.answer }}</textarea>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="container-contact100-form-btn-extra-options">
+				<input type="submit" class="contact100-form-btn" value="update">
+				<div class="contact100-more-link">
+					<a class="contact100-more-highlight-delete" href="/questions/{{ question.id }}/delete/">Delete</a>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<div id="dropDownSelect1"></div>
+
+{% endblock %}

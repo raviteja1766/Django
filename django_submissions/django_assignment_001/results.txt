@@ -1,0 +1,18 @@
+Tests ran at 09 Mar 05 04 AM
+
+14 tests passed out of 14 tests.
+
+test_questions.py::TestQuestions::test_get_all_questions_when_no_questions_present: passed
+test_questions.py::TestQuestions::test_get_all_questions_when_one_question_is_present: passed
+test_questions.py::TestQuestions::test_get_all_questions_when_three_question_is_present: passed
+test_questions.py::TestQuestions::test_get_questions: passed
+test_questions.py::TestQuestions::test_create_question_get_form: passed
+test_questions.py::TestQuestions::test_create_question_post: passed
+test_questions.py::TestQuestions::test_create_question_post_question_creation_fails_when_question_is_empty: passed
+test_questions.py::TestQuestions::test_create_question_post_question_creation_fails_when_answer_is_empty: passed
+test_questions.py::TestQuestions::test_create_question_post_question_creation_fails_when_both_are_empty: passed
+test_questions.py::TestQuestions::test_update_question: passed
+test_questions.py::TestQuestions::test_update_question_failed_when_question_data_is_empty: passed
+test_questions.py::TestQuestions::test_update_question_failed_when_answer_is_empty: passed
+test_questions.py::TestQuestions::test_update_question_failed_when_both_are_empty: passed
+test_questions.py::TestQuestions::test_delete_question: passed

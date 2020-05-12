@@ -1,0 +1,36 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<div class="container-contact100">
+	<div class="wrap-contact100">
+		<form class="contact100-form validate-form">
+			<span class="contact100-form-title">Questions App</span> {% if list_of_questions %}
+			<div style="display:flex ; justify-content:center ; padding:15px">
+				<form action="/questions">
+					<input type="hidden" name="sort_by" value="asc">
+					<input type="submit" value="Sort by ASC" class="contact100-form-btn" formmethod="get">
+				</form>
+				<form action="/questions">
+					<input type="hidden" name="sort_by" value="desc">
+					<input type="submit" value="Sort by DESC" class="contact100-form-btn" formmethod="get">
+				</form>
+			</div>
+			<div class="wrap-input100 validate-input" data-validate="Please enter question text">
+				{% for question in list_of_questions %}
+				<a class="input100" href="/questions/{{ question.id }}/get/">{{ question.text }}</a> {% endfor %}
+			</div>
+			{% else %}
+			<p class="contact100-form-text">No questions are available</p>
+			{% endif %}
+		</form>
+
+		<a class="contact100-more-highlight-delete" href="/questions/create/">Add a Question</a>
+	</div>
+
+</div>
+
+
+
+<div id="dropDownSelect1"></div>
+
+
+{% endblock %}
